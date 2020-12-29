@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/fragment_main_Button_Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW YELLOW DETAIL"
+        android:background="#FF9999"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:tag="10"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/fragment_detail_Button_Red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="SHOW RED DETAIL"
+        android:tag="20"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/fragment_detail_Button_Fushia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="SHOW GREEN DETAIL"
+        android:tag="30"
+        android:layout_margin="10dp"/>
+    </LinearLayout>
+
